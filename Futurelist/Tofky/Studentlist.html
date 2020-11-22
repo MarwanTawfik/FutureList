@@ -1,16 +1,21 @@
 <html>
    <head>
-    <title>DM324 - Home Page</title>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
    </head>
    
    <body>
-       <!--nav-->
-        <a href="index.html">Home</a>
-        <a href="studentlist.html">StudentList</a>
-        <a href="newstudent.html">New Student</a>
-        <!--nav#-->
+    <nav>
+        <ul>
+        <li><a  href="index.html">Home</a>
+        <li> <a  class="active" href="studentlist.html">StudentList</a>
+        <li><a  href="newstudent.html">New Student</a>
+            <li class="nav-right"><a href="">logout</a>
+    </ul>
+    </nav>
+    </nav>
     <hr/>
-        <!--Section-->
+        <section>
         <table border="1">
         <thead>
             <td>ID</td>
@@ -39,11 +44,7 @@
             </tr>
         </tbody> 
     </body>
-
-
-
-    
-    <!--Section#-->
+</section>
 
     <hr/>
     <!--footer-->
